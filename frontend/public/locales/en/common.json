@@ -1,0 +1,215 @@
+{
+  "app": {
+    "title": "L2 Adena Marketplace",
+    "description": "Marketplace application"
+  },
+  "nav": {
+    "welcome": "Welcome, {{username}}",
+    "profile": "Profile",
+    "purchaseHistory": "Purchase History",
+    "likes": "Likes",
+    "premium": "Premium",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "home": {
+    "title": "Welcome to L2 Adena Marketplace",
+    "subtitle": "Discover amazing products and connect with sellers.",
+    "browseListings": "Browse Listings",
+    "viewProfile": "View Profile"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "description": "Enter your credentials to access your account",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "loggingIn": "Logging in...",
+      "loginButton": "Login",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Register",
+      "errors": {
+        "getUserData": "Failed to get user data",
+        "loginFailed": "Login failed",
+        "networkError": "Network error"
+      }
+    },
+    "register": {
+      "title": "Register",
+      "description": "Create a new account",
+      "username": "Username",
+      "usernamePlaceholder": "Enter your username",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "registering": "Registering...",
+      "registerButton": "Register",
+      "hasAccount": "Already have an account?",
+      "loginLink": "Login",
+      "errors": {
+        "registrationFailed": "Registration failed",
+        "networkError": "Network error"
+      }
+    }
+  },
+  "profile": {
+    "myProfile": "My Profile",
+    "editProfile": "Edit Profile",
+    "description": "Description",
+    "descriptionPlaceholder": "Tell others about yourself",
+    "serverList": "Server List",
+    "serverListPlaceholder": "Your servers (comma separated)",
+    "saving": "Saving...",
+    "saveChanges": "Save Changes",
+    "cancel": "Cancel",
+    "verified": "Verified",
+    "likes": "Likes: {{count}}",
+    "rating": "Rating: {{rating}} ({{reviews}})",
+    "unlike": "Unlike",
+    "errors": {
+      "loadFailed": "Failed to load profile",
+      "updateFailed": "Failed to update profile",
+      "networkError": "Network error"
+    }
+  },
+  "listings": {
+    "title": "Listings",
+    "createListing": "Create Listing",
+    "filters": "Filters",
+    "server": "Server",
+    "chronicle": "Chronicle",
+    "chroniclePlaceholder": "Chronicle",
+    "type": "Type",
+    "all": "All",
+    "buy": "Buy",
+    "sell": "Sell",
+    "descriptionSearch": "Search in description",
+    "keywordsPlaceholder": "Keywords",
+    "minPrice": "Minimum price",
+    "maxPrice": "Maximum price",
+    "minQuantity": "Minimum quantity",
+    "maxQuantity": "Maximum quantity",
+    "clearFilters": "Clear Filters",
+    "loading": "Loading...",
+    "error": "Error loading listings",
+    "serverRequired": "Server required",
+    "chronicleRequired": "Chronicle required",
+    "quantityMin": "Quantity must be greater than 0",
+    "priceMin": "Price must be greater than 0",
+    "selectServer": "Select server",
+    "loadingServers": "Loading servers...",
+    "errorLoadingServers": "Error loading servers",
+    "featured": "Featured",
+    "viewDetails": "View Details",
+    "contact": "Contact",
+    "edit": "Edit",
+    "noDescription": "No description",
+    "quantity": "Quantity: {{quantity}}",
+    "creating": "Creating...",
+    "createButton": "Create Listing",
+    "updating": "Updating...",
+    "updateButton": "Update Listing",
+    "createError": "Error creating listing",
+    "updateError": "Error updating listing",
+    "featureListing": "Feature listing (Coming soon with payment)"
+  },
+  "servers": {
+    "activity": "Server Activity",
+    "loading": "Loading servers...",
+    "error": "Error loading servers: {{message}}",
+    "chronicle": "Chronicle: {{chronicle}}",
+    "activeListings": "Active listings:",
+    "totalTransactions": "Total transactions:",
+    "totalSellers": "Total sellers:"
+  },
+  "premium": {
+    "title": "Premium Services",
+    "subtitle": "Discover the advantages of our premium services for verified sellers.",
+    "loginRequired": "Log in to access this function.",
+    "comingSoon": "Coming soon - Stripe integration",
+    "featureListings": {
+      "title": "Feature Listings",
+      "description": "Make your listings stand out in searches and appear first in the list.",
+      "benefits": [
+        "Priority position in searches",
+        "Visible 'Featured' badge",
+        "Greater visibility for buyers"
+      ]
+    },
+    "sellerVerification": {
+      "title": "Seller Verification",
+      "description": "Get the verified seller badge to generate more trust in buyers.",
+      "benefits": [
+        "Blue verification badge on profile",
+        "Increased buyer confidence"
+      ]
+    },
+    "monthlySubscription": {
+      "title": "Monthly Premium Subscription",
+      "description": "Access all premium features with a monthly subscription.",
+      "basic": "Basic",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "allProFeatures": "All Pro features",
+      "unlimitedFeatured": "Unlimited featured listings",
+      "subscribe": "Subscribe",
+      "loginToSubscribe": "Log in to subscribe."
+    },
+    "whyChoosePremium": {
+      "title": "Why choose Premium?",
+      "visibility": {
+        "title": "More Visibility",
+        "description": "Your listings will be seen first, increasing sales."
+      },
+      "trust": {
+        "title": "Trust",
+        "description": "Buyers trust verified sellers more."
+      },
+      "support": {
+        "title": "Support",
+        "description": "Access to priority support and advanced tools."
+      }
+    }
+  },
+  "purchaseHistory": {
+    "title": "Purchase History",
+    "loading": "Loading...",
+    "error": "Failed to load purchase history",
+    "networkError": "Network error",
+    "noPurchases": "No purchases found."
+  },
+  "likes": {
+    "title": "Liked Sellers",
+    "loading": "Loading...",
+    "error": "Failed to load likes",
+    "networkError": "Network error",
+    "noLikes": "No liked sellers yet.",
+    "likedOn": "Liked on: {{date}}",
+    "unlike": "Unlike"
+  },
+  "chat": {
+    "loginRequired": "You must log in to access chat.",
+    "loading": "Loading...",
+    "selectConversation": "Select a conversation",
+    "chatWith": "Chat with {{user}}",
+    "typeMessage": "Type a message...",
+    "connected": "Connected to chat",
+    "disconnected": "Disconnected from chat"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "networkError": "Network error",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

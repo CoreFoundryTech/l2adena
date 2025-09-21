@@ -13,7 +13,8 @@ Diseñar y configurar la base de datos PostgreSQL para el proyecto L2 Adena Mark
    - Tabla Message (id, room_id, sender_id, content, created_at)
    - Tabla PurchaseHistory (id, buyer_id, listing_id, transaction_date, status)
    - Tabla SellerLike (id, buyer_id, seller_id, created_at)
-3. Configurar SQLAlchemy con modo asíncrono.
+   - Tabla Server (id, name, chronicle, region, is_active)
+   3. Configurar SQLAlchemy con modo asíncrono.
 4. Crear migraciones iniciales con Alembic.
 5. Establecer conexiones de base de datos seguras.
 
@@ -27,3 +28,15 @@ Diseñar y configurar la base de datos PostgreSQL para el proyecto L2 Adena Mark
 - Esquemas de tablas creados y migrados.
 - Conexiones de base de datos funcionales en el backend.
 - Scripts de inicialización de datos de prueba.
+## Estado de Cumplimiento
+
+La fase está completada. Detalles técnicos de los cambios realizados:
+
+- Backend reestructurado a Python/FastAPI.
+- Modelos SQLAlchemy creados para todas las tablas (User, Profile, Review, Listing, Message, PurchaseHistory, SellerLike).
+- Alembic configurado con migración inicial.
+- Conexiones PostgreSQL usando variables de entorno.
+- Script de inicialización de datos de prueba.
+- PostgreSQL configurado en Dokploy.
+- La BD está migrada exitosamente con las tablas User, Profile, Review, Listing, Message, PurchaseHistory, SellerLike creadas en PostgreSQL de Dokploy.
+- Las migraciones se aplicaron correctamente.

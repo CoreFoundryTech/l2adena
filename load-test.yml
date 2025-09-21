@@ -1,0 +1,14 @@
+config:
+  target: 'http://localhost:5001'
+  phases:
+    - duration: 10
+      arrivalRate: 5
+  defaults:
+    headers:
+      Content-Type: 'application/json'
+
+scenarios:
+  - name: 'Get root'
+    flow:
+      - get:
+          url: '/'

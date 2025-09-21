@@ -1,0 +1,215 @@
+{
+  "app": {
+    "title": "L2 Adena Marketplace",
+    "description": "Aplicación de marketplace"
+  },
+  "nav": {
+    "welcome": "Bienvenido, {{username}}",
+    "profile": "Perfil",
+    "purchaseHistory": "Historial de Compras",
+    "likes": "Me Gusta",
+    "premium": "Premium",
+    "logout": "Cerrar Sesión",
+    "login": "Iniciar Sesión",
+    "register": "Registrarse"
+  },
+  "home": {
+    "title": "Bienvenido a L2 Adena Marketplace",
+    "subtitle": "Descubre productos increíbles y conecta con vendedores.",
+    "browseListings": "Ver Anuncios",
+    "viewProfile": "Ver Perfil"
+  },
+  "auth": {
+    "login": {
+      "title": "Iniciar Sesión",
+      "description": "Ingresa tus credenciales para acceder a tu cuenta",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "loggingIn": "Iniciando sesión...",
+      "loginButton": "Iniciar Sesión",
+      "noAccount": "¿No tienes una cuenta?",
+      "registerLink": "Registrarse",
+      "errors": {
+        "getUserData": "Error al obtener datos del usuario",
+        "loginFailed": "Error al iniciar sesión",
+        "networkError": "Error de red"
+      }
+    },
+    "register": {
+      "title": "Registrarse",
+      "description": "Crear una nueva cuenta",
+      "username": "Nombre de Usuario",
+      "usernamePlaceholder": "Ingresa tu nombre de usuario",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "Ingresa tu correo electrónico",
+      "password": "Contraseña",
+      "passwordPlaceholder": "Ingresa tu contraseña",
+      "registering": "Registrando...",
+      "registerButton": "Registrarse",
+      "hasAccount": "¿Ya tienes una cuenta?",
+      "loginLink": "Iniciar Sesión",
+      "errors": {
+        "registrationFailed": "Error en el registro",
+        "networkError": "Error de red"
+      }
+    }
+  },
+  "profile": {
+    "myProfile": "Mi Perfil",
+    "editProfile": "Editar Perfil",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Cuéntanos sobre ti",
+    "serverList": "Lista de Servidores",
+    "serverListPlaceholder": "Tus servidores (separados por coma)",
+    "saving": "Guardando...",
+    "saveChanges": "Guardar Cambios",
+    "cancel": "Cancelar",
+    "verified": "Verificado",
+    "likes": "Me gusta: {{count}}",
+    "rating": "Calificación: {{rating}} ({{reviews}})",
+    "unlike": "Quitar Me Gusta",
+    "errors": {
+      "loadFailed": "Error al cargar perfil",
+      "updateFailed": "Error al actualizar perfil",
+      "networkError": "Error de red"
+    }
+  },
+  "listings": {
+    "title": "Anuncios",
+    "createListing": "Crear Anuncio",
+    "filters": "Filtros",
+    "server": "Servidor",
+    "chronicle": "Crónica",
+    "chroniclePlaceholder": "Crónica",
+    "type": "Tipo",
+    "all": "Todos",
+    "buy": "Comprar",
+    "sell": "Vender",
+    "descriptionSearch": "Buscar en descripción",
+    "keywordsPlaceholder": "Palabras clave",
+    "minPrice": "Precio mínimo",
+    "maxPrice": "Precio máximo",
+    "minQuantity": "Cantidad mínima",
+    "maxQuantity": "Cantidad máxima",
+    "clearFilters": "Limpiar Filtros",
+    "loading": "Cargando...",
+    "error": "Error al cargar anuncios",
+    "serverRequired": "Servidor requerido",
+    "chronicleRequired": "Crónica requerida",
+    "quantityMin": "La cantidad debe ser mayor a 0",
+    "priceMin": "El precio debe ser mayor a 0",
+    "selectServer": "Seleccionar servidor",
+    "loadingServers": "Cargando servidores...",
+    "errorLoadingServers": "Error al cargar servidores",
+    "featured": "Destacado",
+    "viewDetails": "Ver Detalles",
+    "contact": "Contactar",
+    "edit": "Editar",
+    "noDescription": "Sin descripción",
+    "quantity": "Cantidad: {{quantity}}",
+    "creating": "Creando...",
+    "createButton": "Crear Anuncio",
+    "updating": "Actualizando...",
+    "updateButton": "Actualizar Anuncio",
+    "createError": "Error al crear anuncio",
+    "updateError": "Error al actualizar anuncio",
+    "featureListing": "Destacar anuncio (Próximamente con pago)"
+  },
+  "servers": {
+    "activity": "Actividad de Servidores",
+    "loading": "Cargando servidores...",
+    "error": "Error al cargar servidores: {{message}}",
+    "chronicle": "Crónica: {{chronicle}}",
+    "activeListings": "Anuncios activos:",
+    "totalTransactions": "Total transacciones:",
+    "totalSellers": "Total vendedores:"
+  },
+  "premium": {
+    "title": "Servicios Premium",
+    "subtitle": "Descubre las ventajas de nuestros servicios premium para vendedores verificados.",
+    "loginRequired": "Inicia sesión para acceder a esta función.",
+    "comingSoon": "Próximamente - Integración con Stripe",
+    "featureListings": {
+      "title": "Destacar Anuncios",
+      "description": "Haz que tus anuncios se destaquen en las búsquedas y aparezcan primero en la lista.",
+      "benefits": [
+        "Posición prioritaria en búsquedas",
+        "Badge de 'Destacado' visible",
+        "Mayor visibilidad para compradores"
+      ]
+    },
+    "sellerVerification": {
+      "title": "Verificación de Vendedor",
+      "description": "Obtén el badge de vendedor verificado para generar más confianza en los compradores.",
+      "benefits": [
+        "Badge azul de verificación en perfil",
+        "Mayor confianza de los compradores"
+      ]
+    },
+    "monthlySubscription": {
+      "title": "Suscripción Premium Mensual",
+      "description": "Accede a todas las funciones premium con una suscripción mensual.",
+      "basic": "Básico",
+      "pro": "Pro",
+      "enterprise": "Enterprise",
+      "allProFeatures": "Todo lo de Pro",
+      "unlimitedFeatured": "Anuncios destacados ilimitados",
+      "subscribe": "Suscribirse",
+      "loginToSubscribe": "Inicia sesión para suscribirte."
+    },
+    "whyChoosePremium": {
+      "title": "¿Por qué elegir Premium?",
+      "visibility": {
+        "title": "Más Visibilidad",
+        "description": "Tus anuncios se verán primero, aumentando las ventas."
+      },
+      "trust": {
+        "title": "Confianza",
+        "description": "Los compradores confían más en vendedores verificados."
+      },
+      "support": {
+        "title": "Soporte",
+        "description": "Acceso a soporte prioritario y herramientas avanzadas."
+      }
+    }
+  },
+  "purchaseHistory": {
+    "title": "Historial de Compras",
+    "loading": "Cargando...",
+    "error": "Error al cargar historial de compras",
+    "networkError": "Error de red",
+    "noPurchases": "No se encontraron compras."
+  },
+  "likes": {
+    "title": "Vendedores que Me Gustan",
+    "loading": "Cargando...",
+    "error": "Error al cargar me gusta",
+    "networkError": "Error de red",
+    "noLikes": "Aún no tienes vendedores que te gusten.",
+    "likedOn": "Me gustó el: {{date}}",
+    "unlike": "Quitar Me Gusta"
+  },
+  "chat": {
+    "loginRequired": "Debes iniciar sesión para acceder al chat.",
+    "loading": "Cargando...",
+    "selectConversation": "Selecciona una conversación",
+    "chatWith": "Chat con {{user}}",
+    "typeMessage": "Escribe un mensaje...",
+    "connected": "Conectado al chat",
+    "disconnected": "Desconectado del chat"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "networkError": "Error de red",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  }
+}

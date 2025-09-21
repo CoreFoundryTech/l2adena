@@ -100,7 +100,7 @@ Razón: Estándar de la industria para el control de versiones. Se integrará co
 
 4.1. Gestión de Usuarios y Reputación
 
-DB Schema: Tabla User (id, email, password_hash, username, is_verified, created_at). Tabla Profile (user_id, description, server_list).
+DB Schema: Tabla User (id, email, password_hash, username, is_verified, created_at). Tabla Profile (user_id, description, server_list). Tabla Server (id, name, chronicle, region, is_active).
 
 Reputación: Tabla Review (id, listing_id, reviewer_id, reviewee_id, rating, comment, created_at). Se calculará un promedio de rating que se mostrará en el perfil del usuario.
 

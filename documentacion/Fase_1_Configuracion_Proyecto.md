@@ -20,3 +20,20 @@ Configurar la estructura inicial del proyecto L2 Adena Marketplace, incluyendo l
 - Estructura de directorios creada.
 - Dokploy configurado para el proyecto.
 - Scripts de desarrollo y despliegue básicos funcionando.
+
+## Estado de Cumplimiento
+
+### Completado
+- Repositorio Git inicializado con commits iniciales.
+- Estructura de directorios creada con frontend y backend separados.
+- Backend creado con `package.json` y `src/index.js`.
+- Entornos configurados: `.env.local`, `.env.staging`, `.env.production`.
+- ESLint y Prettier configurados en frontend.
+- Scripts agregados en `package.json` para desarrollo y despliegue.
+
+### Pendiente
+- Configuración inicial de Dokploy (ya estaba funcionando y no se requirió configuración adicional).
+
+### Resolución
+- Dokploy ya estaba operativo en el entorno, por lo que no se realizaron cambios adicionales.
+- Los demás elementos se implementaron según lo planificado, con detalles técnicos incluidos en los archivos correspondientes del proyecto.

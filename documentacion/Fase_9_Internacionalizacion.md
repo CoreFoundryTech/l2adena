@@ -23,3 +23,17 @@ Implementar soporte multiidioma en la plataforma (inglés, español, portugués,
 - Todas las cadenas traducidas correctamente.
 - Cambio de idioma sin recargar la página.
 - Contenido dinámico traducido.
+## Estado de Cumplimiento
+
+La fase de internacionalización ha sido completada para inglés y español. Se implementó para 2 idiomas en lugar de los 4 planificados inicialmente.
+
+Detalles técnicos de los cambios realizados:
+
+- i18next instalado
+- Archivos de traducciones JSON para inglés y español
+- Traducción de cadenas de texto
+- Selector de idioma
+- Rutas internacionalizadas
+- Traducción de contenido dinámico
+- Soporte backend (campo language en User, endpoint PUT /users/me/language)
+- Pruebas de funcionalidad
